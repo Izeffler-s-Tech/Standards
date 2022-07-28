@@ -49,7 +49,8 @@ use Core\Service\ParameterFactory,
 
 - As declarações de use DEVEM vir após a declaração da namespace
 - Toda a lista com múltiplas entradas as quais a ordem não importa para o funcionamento deve ser ordenada alfabeticamente, inclusive namespaces.
-- As chaves de abertura e fechamento da classe DEVEM ser em novas linhas. Exemplo:
+
+- As chaves de abertura e fechamento da "CLASSE" DEVEM ser em novas linhas. Exemplo:
 
 ```php
 class Auth extends Service
@@ -58,7 +59,7 @@ class Auth extends Service
 }
 ```
 
-- As chaves de abertura e fechamento de métodos DEVEM ser em novas linhas. Exemplo:
+- As chaves de abertura e fechamento de "MÉTODOS" DEVEM ser em novas linhas. Exemplo:
 
 ```php
 public function authenticate(ParameterSet $params)
@@ -69,7 +70,7 @@ public function authenticate(ParameterSet $params)
 
 - A visibilidade (public, private, protected) DEVE ser declarada em todos os métodos e propriedades. abstract e final DEVEM ser declaradas antes da visibilidade. static DEVE ser declarado depois da visibilidade.  Variáveis NÃO DEVEM iniciar com underscore como forma de definição de visibilidade.
 
-- As chaves de abertura de estruturas de controle DEVEM ser na mesma linha, as de fechamento devem ser em nova linha. Parênteses de abertura de estruturas de controle NÃO DEVE ter espaços depois e o de fechamento NÃO DEVE ter espaços antes.  Exemplo:
+- As chaves de abertura de "ESTRUTURAS DE CONTROLE" DEVEM ser na mesma linha, as de fechamento devem ser em nova linha. Parênteses de abertura de estruturas de controle NÃO DEVE ter espaços depois e o de fechamento NÃO DEVE ter espaços antes.  Exemplo:
 
 ```php
 if (count($user)==0) {
