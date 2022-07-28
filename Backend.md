@@ -5,7 +5,7 @@ As regras são baseadas no PSR-2. Não havendo algo relacionado aqui deve-se res
 
 - Arquivos DEVEM usar apenas <?php
 
-- ~~Todos os arquivos devem ser salvos na codificação UTF-8. Configurar editores e IDEs usadas para salvar desta forma.~~ Por enquanto usar ISO-8859-1.
+- Todos os arquivos do Proseleta (Laravel) devem ser salvos na codificação UTF-8 e do Proseleta (v1) ISO-8859-1. Configurar editores e IDEs usadas para salvar desta forma. 
 
 - Todos os arquivos PHP DEVEM terminar com uma linha em branco
 
